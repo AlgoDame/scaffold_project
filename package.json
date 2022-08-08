@@ -1,0 +1,35 @@
+{
+  "name": "scaffold_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index",
+    "start": "node dist/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlgoDame/scaffold_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlgoDame/scaffold_project/issues"
+  },
+  "homepage": "https://github.com/AlgoDame/scaffold_project#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.8",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@types/morgan": "^1.9.3",
+    "dotenv": "^12.0.3",
+    "express": "^4.17.2",
+    "joi": "^17.4.2",
+    "morgan": "^1.10.0"
+  }
+}
